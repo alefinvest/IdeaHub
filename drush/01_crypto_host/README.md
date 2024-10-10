@@ -59,3 +59,11 @@ To prepare a modified JSON file that is suitable for interaction with the UI in 
 - Make sure that your API and blockchain integrations handle the data types, especially for large numbers like balances.
 
 This JSON structure should be understandable to someone in 10th grade and facilitate transactions effectively through the required API. Feel free to ask if you need further modifications or explanations!
+
+# Web-UI v0
+
+![Home page screenshot](.images/home_page.png)
+![Transactions page screenshot](./images/transactions_page.png)
+![About page screenshot](./images/about_page.png)
+
+
