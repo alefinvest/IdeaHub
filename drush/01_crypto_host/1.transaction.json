@@ -1,0 +1,110 @@
+{
+    "projectName": "CryptoBankLink",
+    "transaction": {
+      "id": "txn-12345678",
+      "type": "cross-border",
+      "status": "pending",
+      "amount": {
+        "fiat": {
+          "currency": "EUR",
+          "value": "1000.00"
+        },
+        "crypto": {
+          "currency": "USDC",
+          "network": "ERC-20",
+          "value": "1111.11"
+        }
+      },
+      "conversionRate": "1.1111",
+      "fee": {
+        "currency": "EUR",
+        "value": "10.00"
+      },
+      "date": "2023-10-12T10:00:00Z",
+      "parties": {
+        "sender": {
+          "accountNumber": "DE89370400440532013000",
+          "iban": "DE89370400440532013000",
+          "bank": "Commerzbank AG"
+        },
+        "receiver": {
+          "cryptoAddress": "0x8Fa3f4D5b0A3c6D6aA48299D7e9a9007B882bB3D",
+          "network": "ERC-20"
+        }
+      },
+      "metadata": {
+        "description": "Payment for invoice #INV12345",
+        "tags": ["invoice", "payment", "europe"]
+      }
+    },
+    "interfaceComponents": {
+      "header": {
+        "brandLogo": "CryptoBankLink",
+        "navigation": [
+          "Dashboard",
+          "Transactions",
+          "Currency Conversion",
+          "Account Settings",
+          "Support & AI Assistant"
+        ]
+      },
+      "dashboard": {
+        "keyMetrics": [
+          "totalFiatBalance",
+          "totalCryptoHoldings",
+          "latestTransactionStatus",
+          "conversionRates"
+        ]
+      },
+      "transactionPanel": {
+        "formElements": [
+          "accountNumbers",
+          "ibans",
+          "bankIdentifiers",
+          "cryptoDropdowns"
+        ],
+        "feeCalculator": true
+      },
+      "aiAssistant": {
+        "enabled": true,
+        "provider": "OpenAI GPT-4",
+        "features": ["intelligentResponses", "voiceInput"]
+      },
+      "transactionMonitoring": {
+        "tableColumns": [
+          "Transaction ID",
+          "Date",
+          "Type",
+          "Status",
+          "Amount"
+        ],
+        "visualIndicators": ["green", "yellow", "red"]
+      },
+      "security": {
+        "2FA": true,
+        "jwtAuthentication": true
+      },
+      "currencyConversion": {
+        "realTimeRates": true,
+        "savingsCalculator": true
+      },
+      "settings": {
+        "accountLinking": true,
+        "encryptedData": true
+      },
+      "responsiveDesign": {
+        "implementedWith": "tailwind CSS",
+        "scalesFor": ["desktop", "tablet", "mobile"]
+      }
+    },
+    "technicalRequirements": {
+      "frontEndStack": ["Next.js", "React.js", "Tailwind CSS", "Chadcn"],
+      "backEndIntegration": ["SWIFT API", "OpenAI API"],
+      "securityFeatures": [
+        "JWT Authentication",
+        "Data Encryption"
+      ],
+      "reactHooks": ["useEffect", "useState"],
+      "promises": true
+    }
+  }
