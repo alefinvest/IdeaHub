@@ -1,0 +1,11 @@
+/* cbl_app/styles/globals.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
