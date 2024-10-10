@@ -1,0 +1,33 @@
+{
+    "transaction_type": "crypto_transaction",
+    "sender": {
+      "account_number": "0582505400",
+      "account_name": "HDH-Nord-Bau GmbH",
+      "iban": "DE58200700000582505400",
+      "bank_name": "DEUTSCHE BANK AG",
+      "bank_wallet": {
+        "local_address": "0x5754284f345afc66a98fbB0a0Afe71e0F007B949",
+        "current_balances": {
+          "USDT": "5,379,069,841.78",
+          "EUR": "4,896,689,800.00"
+        },
+        "supported_networks": [
+          "ERC20",
+          "TRC20",
+          "BEP20"
+        ],
+        "bank_url": "https://www.deutsche-bank.de/pk/topangebote/topangebote-sea.html?kid=e.0400.00.02&gad_source=2&gbraid=0AAAAACqAfnSL5Gsk-o8T6dHmsEzA-r__r&gclid=0x49D758c9aFE9755f6b6519a33992de96230197cD"
+      },
+      "status": "active"
+    },
+    "transaction_details": {
+      "type": "deposit_request",
+      "from_block": "0x56ab67c6339030a68123c4e2d2be690b1cb93745",
+      "to_block": "0x0e06c2734632c3f1b3d1e74be576d8e5167c5af2",
+      "fund_value": {
+        "amount": "10000",
+        "currency": "USDT"
+      },
+      "version": "1.0"
+    }
+  }
