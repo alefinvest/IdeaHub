@@ -62,7 +62,7 @@ This JSON structure should be understandable to someone in 10th grade and facili
 
 # Web-UI v0
 
-![Home page screenshot](.images/home_page.png)
+![Home page screenshot](./images/home_page.png)
 ![Transactions page screenshot](./images/transactions_page.png)
 ![About page screenshot](./images/about_page.png)
 
